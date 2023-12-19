@@ -92,7 +92,7 @@ int64_t parallel_BFS(const Graph &graph, const Node &start_node)
     }
     time_point end = std::chrono::high_resolution_clock::now();
 
-    for (const bool i: visited) 
+    for (const bool i: visited)
     {
         assert(i);
     }

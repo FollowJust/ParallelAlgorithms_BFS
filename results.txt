@@ -1,3 +1,3 @@
-Average Sequential Time: 1.13751e+06
-Average Parallel Time: 874390
-(Average Sequential Time) / (Average Parallel Time): 1.30092
+Average Sequential Time: 5.36343e+06
+Average Parallel Time: 6.36687e+06
+(Average Sequential Time) / (Average Parallel Time): 0.842397

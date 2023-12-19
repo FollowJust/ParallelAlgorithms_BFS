@@ -18,8 +18,8 @@
 
 */
 
-static constexpr u32 CUBE_GRAPH_SIZE = 300;
-static constexpr u32 TESTS_COUNT = 1;
+static constexpr u32 CUBE_GRAPH_SIZE = 500;
+static constexpr u32 TESTS_COUNT = 5;
 
 int main() 
 {
