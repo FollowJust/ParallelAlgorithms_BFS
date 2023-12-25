@@ -40,12 +40,14 @@ struct Node
 struct Graph 
 {
     u32 size;
+    u32 edges;
     std::vector<Node> nodes;
     std::vector<std::vector<u32>> adjacency_list;
 
     void generate_cube(const u32 s)
     {
         size = s;
+        edges = 0;
         u32 nodes_cnt = size * size * size;
         nodes.resize(nodes_cnt);
         adjacency_list.resize(nodes_cnt);
@@ -101,9 +103,11 @@ struct Graph
 
     void try_to_add_neightbour(const u32 node_idx, const Node &neighbour)
     {
+        u32 neighbour_idx = get_node_idx(neighbour);
         if (check_node_in_bounds(neighbour))
         {
-            adjacency_list[node_idx].push_back(get_node_idx(neighbour));
+            adjacency_list[node_idx].push_back(neighbour_idx);
+            edges++;
         }
     }
 

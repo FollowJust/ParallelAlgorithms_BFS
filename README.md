@@ -16,6 +16,8 @@ make run
 
 ## Results
 
-Average Sequential Time: 5.36343e+06
-Average Parallel Time: 6.36687e+06
-**(Average Sequential Time) / (Average Parallel Time): 0.842397**
+Average Sequential Time: 1.1909e+07
+
+Average Parallel Time: 6.57795e+06
+
+**(Average Sequential Time) / (Average Parallel Time): 1.81045**
